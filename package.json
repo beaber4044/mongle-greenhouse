@@ -1,0 +1,11 @@
+{
+  "name": "petite-bloom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "몽글온실 — 세로 화면 꽃 키우기 게임 프로토타입",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check dist/game.js && node --check dist/portrait.js && node --check server.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
